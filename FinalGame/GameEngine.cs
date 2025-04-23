@@ -18,7 +18,8 @@ namespace FinalGame
 
         private GameEngine()
         {
-            _scenarios = ScenarioLoader.LoadFromJson("FinalGame/Scenarios.json");
+            _scenarios = ScenarioLoader.LoadFromJson("Scenarios.json");
+
         }
 
         public async Task StartGameAsync()

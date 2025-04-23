@@ -8,19 +8,23 @@ namespace FinalGame
     public static class ScenarioLoader
     {
         public static List<Scenario> LoadFromJson(string path)
-        {
-            try
-            {
-                string json = File.ReadAllText(path);
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                return JsonSerializer.Deserialize<List<Scenario>>(json, options) ?? new List<Scenario>();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("⚠️ Failed to load Scenarios.json. Falling back to default.");
-                return LoadDefault();
-            }
-        }
+{
+    try
+    {
+        string fullPath = Path.Combine(AppContext.BaseDirectory, path);
+        Console.WriteLine($"[DEBUG] Attempting to load: {fullPath}");
+
+        string json = File.ReadAllText(fullPath);
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+        return JsonSerializer.Deserialize<List<Scenario>>(json, options) ?? new List<Scenario>();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"⚠️ Failed to load {path}: {ex.Message}");
+        return LoadDefault();
+    }
+}
+
 
         [Scenario("starter")]
         public static List<Scenario> LoadDefault()

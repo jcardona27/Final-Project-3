@@ -12,3 +12,4 @@ C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\refint\FinalG
 C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.pdb
 C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.genruntimeconfig.cache
 C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\ref\FinalGame.dll
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.sourcelink.json
