@@ -106,19 +106,8 @@ namespace FinalGame
         }
 
         
-        public static void PrintAvailableScenarioLoaders()
-        {
-            var methods = typeof(ScenarioLoader).GetMethods(BindingFlags.Public | BindingFlags.Static);
-
-            foreach (var method in methods)
-            {
-                var attr = method.GetCustomAttribute<ScenarioAttribute>();
-                if (attr != null)
-                {
-                    Console.WriteLine($"- Loader Tag: {attr.Tag} → Method: {method.Name}");
-                }
-            }
-        }
+        
+        
 
      
 
