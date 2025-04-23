@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using FinalGame;
 using System.Collections.Generic;
+using NUnit.Framework.Legacy;
 
 namespace FinalGame.Tests
 {
@@ -12,7 +13,7 @@ namespace FinalGame.Tests
             var state = new GameState();
             state.Update(StatType.Health, -20);
 
-            Assert.AreEqual(30, state.Health);
+            ClassicAssert.AreEqual(30, state.Health);
         }
 
         [Test]
@@ -27,16 +28,16 @@ namespace FinalGame.Tests
 
             option.ApplyEffect(state);
 
-            Assert.AreEqual(65, state.Wealth);
+            ClassicAssert.AreEqual(65, state.Wealth);
         }
 
                 [Test]
         public void GameState_InitialValues_AreCorrect()
         {
             var state = new GameState();
-            Assert.AreEqual(50, state.Health);
-            Assert.AreEqual(50, state.Wealth);
-            Assert.AreEqual(50, state.Popularity);
+            ClassicAssert.AreEqual(50, state.Health);
+            ClassicAssert.AreEqual(50, state.Wealth);
+            ClassicAssert.AreEqual(50, state.Popularity);
         }
 
         [Test]
@@ -55,8 +56,8 @@ namespace FinalGame.Tests
 
             option.ApplyEffect(state);
 
-            Assert.AreEqual(40, state.Health);
-            Assert.AreEqual(65, state.Popularity);
+            ClassicAssert.AreEqual(40, state.Health);
+            ClassicAssert.AreEqual(65, state.Popularity);
         }
 
         [Test]
