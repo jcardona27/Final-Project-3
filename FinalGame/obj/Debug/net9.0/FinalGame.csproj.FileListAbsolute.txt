@@ -1,0 +1,14 @@
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\bin\Debug\net9.0\FinalGame.exe
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\bin\Debug\net9.0\FinalGame.deps.json
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\bin\Debug\net9.0\FinalGame.runtimeconfig.json
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\bin\Debug\net9.0\FinalGame.dll
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\bin\Debug\net9.0\FinalGame.pdb
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.AssemblyInfoInputs.cache
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.AssemblyInfo.cs
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.csproj.CoreCompileInputs.cache
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.dll
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\refint\FinalGame.dll
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.pdb
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\FinalGame.genruntimeconfig.cache
+C:\Users\FANNY HERCULES\Final-Project-3\FinalGame\obj\Debug\net9.0\ref\FinalGame.dll

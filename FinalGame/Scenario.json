@@ -1,0 +1,302 @@
+[
+    {
+      "text": "A healer offers you a potion.",
+      "options": [
+        {
+          "description": "Drink it.",
+          "effects": { "Health": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Refuse politely.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The royal treasury is low. Increase taxes?",
+      "options": [
+        {
+          "description": "Yes, raise taxes.",
+          "effects": { "Wealth": 15, "Popularity": -10 }
+        },
+        {
+          "description": "No, spare the people.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Bandits threaten the village. Send guards?",
+      "options": [
+        {
+          "description": "Send them immediately.",
+          "effects": { "Health": 5, "Wealth": -10 }
+        },
+        {
+          "description": "Let the villagers handle it.",
+          "effects": { "Popularity": -15 }
+        }
+      ]
+    },
+    {
+      "text": "A mystic appears with a prophecy.",
+      "options": [
+        {
+          "description": "Accept the prophecy.",
+          "effects": { "Health": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Laugh it off.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "Merchants offer bribes for permits.",
+      "options": [
+        {
+          "description": "Accept the bribe.",
+          "effects": { "Wealth": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Refuse and report them.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A storm damages the village.",
+      "options": [
+        {
+          "description": "Fund repairs.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Do nothing.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "You are invited to a royal feast.",
+      "options": [
+        {
+          "description": "Attend and celebrate.",
+          "effects": { "Popularity": 10, "Health": -5 }
+        },
+        {
+          "description": "Decline to work instead.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A rebellion brews in the north.",
+      "options": [
+        {
+          "description": "Crush it early.",
+          "effects": { "Health": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Try diplomacy.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A wizard wants funding for research.",
+      "options": [
+        {
+          "description": "Support him.",
+          "effects": { "Wealth": 10, "Health": -5 }
+        },
+        {
+          "description": "Decline the risk.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A wild animal is terrorizing farms.",
+      "options": [
+        {
+          "description": "Send hunters.",
+          "effects": { "Health": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Ignore it.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A noble offers a political alliance.",
+      "options": [
+        {
+          "description": "Agree.",
+          "effects": { "Wealth": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Stay independent.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A foreign envoy insults you.",
+      "options": [
+        {
+          "description": "Respond with force.",
+          "effects": { "Popularity": 10, "Health": -5 }
+        },
+        {
+          "description": "Take the high road.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A historic painting is for sale.",
+      "options": [
+        {
+          "description": "Buy it for prestige.",
+          "effects": { "Wealth": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Invest elsewhere.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The peasants demand a holiday.",
+      "options": [
+        {
+          "description": "Declare one.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Deny the request.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The castle wall is crumbling.",
+      "options": [
+        {
+          "description": "Reinforce it.",
+          "effects": { "Wealth": 10, "Health": -5 }
+        },
+        {
+          "description": "Delay repairs.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    },
+    {
+      "text": "There’s a dragon rumor.",
+      "options": [
+        {
+          "description": "Investigate.",
+          "effects": { "Health": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Ignore superstition.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The library requests new books.",
+      "options": [
+        {
+          "description": "Donate funds.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Cut the budget.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "An old friend asks for a title.",
+      "options": [
+        {
+          "description": "Grant it.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Refuse.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A strange comet appears.",
+      "options": [
+        {
+          "description": "Host a festival.",
+          "effects": { "Popularity": 10, "Health": -5 }
+        },
+        {
+          "description": "Warn of doom.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A famous chef offers to serve.",
+      "options": [
+        {
+          "description": "Hire them.",
+          "effects": { "Popularity": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Decline extravagance.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "Guards request better equipment.",
+      "options": [
+        {
+          "description": "Upgrade gear.",
+          "effects": { "Health": 10, "Wealth": -5 }
+        },
+        {
+          "description": "Stay on budget.",
+          "effects": { "Wealth": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A famine is approaching.",
+      "options": [
+        {
+          "description": "Ration early.",
+          "effects": { "Health": 10, "Popularity": -5 }
+        },
+        {
+          "description": "Wait and see.",
+          "effects": { "Popularity": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A scholar predicts the future.",
+      "options": [
+        {
+          "description": "Fund his work.",
+          "effects": { "Wealth": 10, "Health": -5 }
+        },
+        {
+          "description": "Call it nonsense.",
+          "effects": { "Health": 5 }
+        }
+      ]
+    }
+  ]
+  
